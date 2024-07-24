@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple</title>
+  <!-- jquery min -->
+  <script src="./js/jquery-2.1.1.min.js"></script>
+  <script src="./js/jquery-ui.min.js"></script>
+  <!-- reset cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+  <!-- flickity-slider -->
+  <link rel="stylesheet" href="./css/flickity.min.css" media="screen">
+  <script src="./js/flickity.pkgd.min.js"></script>
+  <!-- aos ani -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- user -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <!-- top/bottom scroll btn -->
+  <div id="scrollBtn">
+    <span class="top"><i class="fa-solid fa-angle-up"></i></span>
+    <span class="bottom"><i class="fa-solid fa-angle-down"></i></span>
+  </div>
+  <!-- header -->
+  <header>
+    <div class="logo"><a href="index.html"><img src="./images/logo_b.svg" alt="Apple"></a></div>
+    <ul class="nav">
+      <li><a href="#">Mac</a></li>
+      <li><a href="#">iPad</a></li>
+      <li><a href="#">iphone</a></li>
+      <li><a href="#">Watch</a></li>
+      <li><a href="#">AirPod</a></li>
+      <li><a href="#">TV 및 홈</a></li>
+      <li><a href="#">엔터테인먼트</a></li>
+      <li><a href="#">악세서리</a></li>
+      <li><a href="#">고객지원</a></li>
+    </ul>
+    <ul class="subMenu">
+      <a href="#"><i class="fa-regular fa-user"></i></a>
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+    </ul>
+  </header>
+  <section class="mainVisualBanner">
+    <div class="visualTitle">
+      <h1>
+        스토어. 좋아하는 Apple 제품을 구입하는<br>가장 좋은 방법.
+      </h1>
+      <ul class="category">
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-desktop"></i>
+            <p>Mac</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-mobile"></i>
+            <p>iphone</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-clock"></i>
+            <p>Watch</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-wallet"></i>
+            <p>AirPod</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-tv"></i>
+            <p>TV 및 홈</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-centercode"></i>
+            <p>엔터테인먼트</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-section"></i>
+            <p>악세서리</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-user-astronaut"></i>
+            <p>고객지원</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="slide">
+      <ul>
+        <li class="active"><img src="./images/메인비주얼1.jpg" alt="책상 위에 노트북, 아이패드, 선글라스, 각종 사무용품이 올려져 있는 이미지"></li>
+        <li><img src="./images/메인비주얼2.jpg" alt="핸드폰을 들고 sns를 하고 있는 사람의 손 부분 모습"></li>
+        <li><img src="./images/메인비주얼3.jpg" alt="목재 책상 위에 왼쪽에서부터 순서대로 노트북, 아이패드, 스마트폰이 놓여져 있는 이미지"></li>
+      </ul>
+    </div>
+  </section>
+  <!-- container -->
+  <section class="contents">
+    <!-- goto -->
+    <section class="goto" data-aos="fade-up"
+    data-aos-anchor-placement="top-center" data-aos-delay="300">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#">
+            <img class="photo" src="./images/goto_1.png" alt="노란색 바탕에 노트북, 스마트폰, 이어폰이 차례대로 놓아져있는 이미지">
+            <h2 class="title">특별 할인</h2>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <img class="photo" src="./images/goto_2.png" alt="iphone16 제품 이미지">
+            <h2 class="title">최신 제품</h2>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+            <img class="photo" src="./images/goto_3.png" alt="결제 카드를 들고있는 사람의 손을 클로즈업한 이미지">
+            <h2 class="title">남다른<br>Apple Store</h2>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- AppleServices -->
+    <section class="AppleServices" data-aos="fade-up"
+    data-aos-anchor-placement="top-center" data-aos-delay="300">
+      <article class="titleArea">
+        <h1>Apple services</h1>
+        <span>Apple 제품 및 서비스로 더욱더 많은 혜택을 누리다.</span>
+      </article>
+      <section class="contentsArea">
+        <div class="top">
+          <a href="#">
+            <img src="./images/Services_1.png" alt="고양이 여섯마리가 옹기종기 모여있는 일러스트 이미지">
+          </a>
+          <article>
+            <span>Today at Apple</span>
+            <h2>Apple 캠프에서 만나요.</h2>
+            <p>"친⁠절⁠"⁠을 주⁠제⁠로 인⁠터⁠랙⁠티⁠브⁠형 이⁠야⁠기⁠책 만⁠들⁠기.<br>6~10세 어린이들이 iPad에서 친절을 주제로 한 동화책을 만들어볼 수 있는 시간을 마련했습니다.</p>
+          </article>
+        </div>
+        <div class="container">
+          <div class="bottom">
+            <div class="bottomLeft">
+              <a href="#">
+                <article>
+                  <span>Apple TV+</span>
+                  <h2>매달 새로운 Apple Original<br>콘텐츠 감상.</h2>
+                  <p></p>
+                </article>
+                <img src="./images/Services_2.png" alt="Apple TV+에서 매달 새롭게 올라오는 Apple Original을 홍보하면서 맷 데이먼과 케이시 애플렉이 출연하는 인스티게이터를 보여주는 이미지. 캐주얼한 차림의 두 배우가 하늘을 배경으로 수갑이 채워진 채 연행되고 있습니다.">
+              </a>
+            </div>
+            <div class="bottomRight">
+              <a href="#">
+                <article>
+                  <h2>네 가지 Apple 서비스.<br>한번의 간편한 가입.</h2>
+                  <p></p>
+                </article>
+                <img src="./images/Services_3.png" alt="아이폰 화면을 터치하는 손을 클로즈업한 모습">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- help -->
+    <section class="help" data-aos="fade-up"
+    data-aos-anchor-placement="top-center" data-aos-delay="100">
+      <div class="container">
+        <article class="titleArea">
+          <h1>help</h1>
+          <span>언제든, 당신에게 맞는 방식으로.</span>
+        </article>
+        <ul class="contentsArea">
+          <li>
+            <a href="#">
+              <img class="photo" src="./images/help_1.png" alt="">
+              <article>
+                <h2>Apple 스페셜리스트</h2>
+                <p>스페셜리스트와 함께하는 일대일 쇼핑. 온라인에서도 매장에서도.</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="photo" src="./images/help_2.png" alt="">
+              <article>
+                <h2>Apple Store 무료 세션 참여</h2>
+                <p>최신 기능과 더불어 Apple 기기를 더욱 심도 있게 활용하는 법을 알아보세요.</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="photo" src="./images/help_3.png" alt="">
+              <article>
+                <h2>무료 온라인 개인 맞춤 세션에서 새 기기를 설정해 보세요.</h2>
+              </article>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- mini banner -->
+    <section class="miniBanner">
+      <video loop autoplay muted>
+        <source src="./images/video.mp4"></source>
+      </video>
+    </section>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="footA">
+        <img class="logo" src="./images/logo.svg" alt="Apple">
+        <ul class="utill">
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">약관</a></li>
+          <li><a href="#">판매 및 환불</a></li>
+          <li><a href="#">법적 고지</a></li>
+          <li><a href="#">사이트 맵</a></li>
+        </ul>
+        <p class="info">
+          사업자등록번호 : 120-81-84429 | 통신판매업신고번호 : 제 2011-서울강남-00810호<br>
+          대표이사 : PETER DENWOOD | 주소 : 서울 특별시 강남구 영동대로 517<br>
+          대표전화 : 080-330-8877 | 팩스 : 02-6928-0000
+        </p>
+        <p class="copy">Copyright &copy; 2024 Apple Inc. 모든 권리 보유.</small>
+      </div>
+      <div class="footB">
+        <p class="title">Apple 정보</p>
+        <ul>
+          <li><a href="#">Newsroom</a></li>
+          <li><a href="#">Apple 리더십</a></li>
+          <li><a href="#">채용 안내</a></li>
+          <li><a href="#">윤리 및 규정 준수</a></li>
+          <li><a href="#">이벤트</a></li>
+          <li><a href="#">일자리 창출</a></li>
+          <li><a href="#">Apple 연락처</a></li>
+        </ul>
+      </div>
+      <div class="footC">
+        <p class="title">Apple의 가치관</p>
+        <ul>
+          <li><a href="#">손쉬운 사용</a></li>
+          <li><a href="#">환경</a></li>
+          <li><a href="#">개인정보 보호</a></li>
+          <li><a href="#">공급망</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
