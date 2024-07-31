@@ -53,5 +53,15 @@ $(document).ready(function(){
         }
     });
 
+        // 스크롤 시 헤더 배경색 활성화
+        $(window).scroll(function(){
+          var sch2 = $(document).scrollTop();        
+            if(sch2 > 100) {
+              $("header").css("background","rgb(0, 0, 0)");
+            } else {
+              $("header").css("background","rgb(0, 0, 0,.0)");
+            }
+        });
+
 });
 

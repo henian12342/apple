@@ -42,38 +42,30 @@ header {
   align-items: center;
   padding: 0 13%;
   box-sizing: border-box;
-  background: #fff;
-  border-bottom: 1px solid #282828;
+  color: rgb(255, 255, 255);
+  transition: background .5s;
   .logo {
     margin-right: 70px;
   }
   .nav {
     display: flex;
     gap: 38px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
     li {
       a {
         display: block;
-        padding: 25px 0;
+        padding: 35px 0;
         transition: .5s;
-        &:hover {
-          color: #1c49ff;
-          scale: 1.1;
-        }
       }
     }
   }
   .subMenu {
     display: flex;
     gap: 20px;
-    font-size: 22px;
+    font-size: 18px;
     a {transition: .5s;}
-    a:hover {
-      color: #1c49ff;
-      scale: 1.2;
-    }
   }
 }
 
