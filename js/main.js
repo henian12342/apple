@@ -6,6 +6,16 @@ $(document).ready(function(){
       e.preventDefault();
     })
 
+      /* 리로드 */
+  $('header .logo').click(function() {
+    location.reload();
+  });
+
+  $(function(){
+		$("html, body").animate({ scrollTop: 0 }, "slow"); 
+	});
+
+
     // mainVisualBanner fade slide
     setInterval(function(){
       let now_img, next_img;
